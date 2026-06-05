@@ -3,7 +3,7 @@ import { FaLightbulb, FaPaintBrush, FaCode, FaReact, FaServer, FaMobileAlt, FaTo
 import profileImg from '../assets/profile.avif';
 import projectImg1 from '../assets/health.avif';
 import projectImg2 from '../assets/project2.avif';
-import projectImg3 from '../assets/project3.avif';
+import projectImg3 from '../assets/cloud.avif';
 import projectImg4 from '../assets/project4.avif';
 
 
@@ -51,7 +51,7 @@ export const skills = [
   {
     title: 'Backend Development',
     icon: FaServer,
-    description: 'Creating robust server-side applications and RESTful APIs.',
+    description: 'Developing robust backend systems for seamless application functionality.',
     tags: ['C', 'C++', 'Python']
   },
   {
@@ -76,8 +76,8 @@ export const skills = [
 
   {
     title: 'Soft Skills',
-    icon: FaMobileAlt,
-    description: 'Building cross-platform mobile applications with modern tools.',
+    icon: FaUser,
+    description: 'Continuous learning and adaptability in dynamic environments.',
     tags: ['Teamwork' , 'Time Management' , 'Leadership Quality',' Communication']
   },
 ];
@@ -91,8 +91,7 @@ export const projects = [
     image: projectImg1,
     tech: ["HTML" , "CSS" , "JavaScript" , "Tkinter", "Oracle"],
     icons: [FaReact, FaNodeJs, FaDatabase , FaStripe],
-    demo: "#",
-    code: "#",
+    code: "https://github.com/Poojashri-K/Smart-health-monitoring-system",
   },
   {
     title: "Order Processing System",
@@ -100,8 +99,7 @@ export const projects = [
     image: projectImg2,
     tech: ["C++" , "HTML", "CSS", "JavaScript" , "Node.js"],
     icons: [FaVuejs, FaFire, FaCloud , FaDatabase],
-    demo: "#",
-    code: "#",
+    code: "https://github.com/Poojashri-K/Order-processing-system",
   },
   {
     title: "Cloud Optima",
@@ -109,17 +107,15 @@ export const projects = [
     image: projectImg3,
     tech: ["React", "Javascript", "CSS" , "C++"],
     icons: [FaReact, FaDatabase],
-    demo: "#",
-    code: "#",
+    code: "https://github.com/Poojashri-K/CloudOptima",
   },
   {
     title: "Portfolio Website",
-    description: "A personal portfolio to showcase projects, skills, and blogs with dark/light mode support.",
+    description: "A responsive portfolio website highlighting my skills, projects, and accomplishments.",
     image: projectImg4,
-    tech: ["Next.js", "Tailwind CSS", "Framer Motion", "Markdown"],
+    tech: ["Next.js", "Tailwind CSS", "Vite", "React"],
     icons: [FaReact, FaCloud],
-    demo: "#",
-    code: "#",
+    code: "https://github.com/Poojashri-K/Portfolio",
   },
 ];
 

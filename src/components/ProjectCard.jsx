@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ProjectCard = ({title, description, image, tech}) => {
+const ProjectCard = ({title, description, image, tech, code}) => {
   return (
     <div className='bg-dark-300 rounded-2xl overflow-hidden hover:-translate-y-2 transition duration-300 cursor-pointer'>
       <img src={image} alt={title} className='w-full h-60 object-cover' />
@@ -15,10 +15,14 @@ const ProjectCard = ({title, description, image, tech}) => {
             ))}
         </div>
         <div className='flex gap-2'>
-            <a href="#" className='flex-1 text-center px=4 py-2 bg-purple rounded-lg font-medium hover:bg-purple-700 transition duration-300'>
-                View Demo
-            </a>
-            <a href="#" className='flex-1 text-center px-4 py-2 border border-purple font-medium rounded-lg hover:bg-purple/20 transition duration-300'>Code</a>
+           <a
+            href={code}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex-1 text-center px-4 py-2 bg-purple rounded-lg font-medium hover:bg-purple-700 transition duration-300"
+          >
+          Code
+          </a>
         </div>
       </div>
     </div>
