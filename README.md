@@ -46,5 +46,5 @@ A modern and responsive personal portfolio website designed to showcase my skill
 
 ## Live Demo
 
-(https://poojashri-portfolio.vercel.app/)
+https://poojashri-portfolio.vercel.app/
 
